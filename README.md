@@ -41,13 +41,13 @@ A copy of the repository is also archived at *insert DOI here*
 ## Dependencies
 
 > Depending on your project, the script might depend on several other packages
-> to run. If using Python, you can use a '.yml' file specifying your dependencies. 
+> to run. If using Python, you can use a '.yml' file specifying your dependencies.
 > You can create one and place it in the repository so subsequent users take it
 > and create a Python environment with all they need to replicate your results.
-> This section should then describe how one can set up an environment with the 
+> This section should then describe how one can set up an environment with the
 > dependencies necessary to run your code.
 
-You'll need Python *version number* to run the code. 
+You'll need Python *version number* to run the code.
 You can set up an environment with all dependencies using an environment manager
 like [Anaconda Python distribution](https://www.anaconda.com/download/) which
 provides the `conda` package manager.
@@ -60,17 +60,17 @@ is located) to create a separate environment and install all required
 dependencies in it:
 
     conda env create
-    
+
 ## Data
-> You need to either provide or cite the data used in your analysis. 
-> Avoid cluttering your repository with a lot of raw data but instead archive and 
-> mint a DOI for your data. 
+> You need to either provide or cite the data used in your analysis.
+> Avoid cluttering your repository with a lot of raw data but instead archive and
+> mint a DOI for your data.
 
 Hadjimichael, A. (2020). My interesting dataset [Data set]. DataHub. https://doi.org/some-doi-number
 
 ## Reproducing the results
 
-> Here you should include all information necessary to reproduce your results. 
+> Here you should include all information necessary to reproduce your results.
 > Ideally, you'd set up a makefile that automates as much as possible, but make
 > sure to provide clear step-by-step instructions for everything.
 > The following can be used as example of replicating Python code.
@@ -92,7 +92,7 @@ To build and test the software, produce all results and figures, follow these st
 
 All source code is made available under a BSD 3-clause license. You can freely
 use and modify the code, without warranty, so long as you provide attribution
-to the authors. See `LICENSE.md` for the full license text.
+to the authors.
 
 The manuscript text is not open source. The authors reserve the rights to the
 article content, which is currently submitted for publication in the
