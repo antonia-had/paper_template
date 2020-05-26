@@ -1,0 +1,17 @@
+# Setup the environment for producing the results in the paper
+# Activate the environment to run your code using "source activate my-paper"
+# or "activate my-paper" on Windows.
+
+name: template-environment
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    # List the dependencies of your script here. Try to avoid specific build info
+    # as it can easily cause conflicts.
+    - python=3.6
+    - pip
+    - numpy=1.14.0
+    - pandas=0.22
+    - pip:
+        - simplejson==3.17.0
