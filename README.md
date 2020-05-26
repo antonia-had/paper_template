@@ -60,6 +60,13 @@ is located) to create a separate environment and install all required
 dependencies in it:
 
     conda env create
+    
+## Data
+> You need to either provide or cite the data used in your analysis. 
+> Avoid cluttering your repository with a lot of raw data but instead archive and 
+> mint a DOI for your data. 
+
+Hadjimichael, A. (2020). My interesting dataset [Data set]. DataHub. https://doi.org/some-doi-number
 
 ## Reproducing the results
 
