@@ -63,44 +63,22 @@ dependencies in it:
 
 ## Reproducing the results
 
-Before running any code you must activate the conda environment:
+> Here you should include all information necessary to reproduce your results. 
+> Ideally, you'd set up a makefile that automates as much as possible, but make
+> sure to provide clear step-by-step instructions for everything.
+> The following can be used as example of replicating Python code.
+
+Activate the conda environment:
 
     source activate ENVIRONMENT_NAME
 
-or, if you're on Windows:
+or, on Windows:
 
     activate ENVIRONMENT_NAME
 
-This will enable the environment for your current terminal session.
-Any subsequent commands will use software that is installed in the environment.
+To build and test the software, produce all results and figures, follow these steps:
 
-To build and test the software, produce all results and figures, and compile
-the manuscript PDF, run this in the top level of the repository:
-
-    make all
-
-If all goes well, the manuscript PDF will be placed in `manuscript/output`.
-
-You can also run individual steps in the process using the `Makefile`s from the
-`code` and `manuscript` folders. See the respective `README.md` files for
-instructions.
-
-Another way of exploring the code results is to execute the Jupyter notebooks
-individually.
-To do this, you must first start the notebook server by going into the
-repository top level and running:
-
-    jupyter notebook
-
-This will start the server and open your default web browser to the Jupyter
-interface. In the page, go into the `code/notebooks` folder and select the
-notebook that you wish to view/run.
-
-The notebook is divided into cells (some have text while other have code).
-Each cell can be executed using `Shift + Enter`.
-Executing text cells does nothing and executing code cells runs the code
-and produces it's output.
-To execute the whole notebook, run all cells in order.
+> Add steps here
 
 
 ## License
